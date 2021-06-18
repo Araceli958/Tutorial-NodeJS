@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" /> 
+    <link rel="stylesheet" type="text/css" href="/estilo">
+    <link rel="stylesheet" type="text/css" href="/vertical">
+    <title>Tutorial con git</title>
+
+    <header class="container">       
+        <nav>
+          <br>
+            <a href="/index" class="lista">GIT</a>
+            <a href="/utilizacion" class="lista">UTILIZACI&Oacute;N</a>
+            <a href="/demostracion" class="lista">DEMOSTRACI&Oacute;N</a>
+
+        </nav>
+    </header>
+
+    <body>
+    <div id="comandos">     
+      <ul>
+          <li class="uno"><P>LISTA</P></li>
+          <li><a href="#texto1">  git init</li>
+          <li><a href="#texto2">  git status</li>
+          <li><a href="#texto3">  git add</li>
+          <li><a href="#texto4">  git config</li> 
+          <li><a href="#texto5">  git commit</li>
+          <li><a href="#texto6">  git log</li>
+          <li><a href="#texto7">  git clone</li>
+          <li><a href="#texto8">  git diff</li>
+          <li><a href="#texto9">  git checkout</li>
+          <li><a href="#texto10"> git restore</li>
+          <li><a href="#texto11"> git branch</li>
+          <li><a href="#texto12"> git fetch</li>
+          <li><a href="#texto13"> git merge</li>
+          <li><a href="#texto14"> git push</li>
+          <li><a href="#texto15"> git pull</li>
+          <li><a href="#texto16"> git rm</li>
+          <li><a href="#texto17"> git switch</li>
+          <li><a href="#texto18"> git remote</li>            
+      </ul><br><br><br><br> 
+    </div>  
+    <div><h2>"USO DE LOS COMANDOS GIT"</h2></div>
+
+    <div>
+      <div>
+        <div class="apartado" id="texto1"><strong>git init</strong><br></div>
+        <h4>El comando git init crea un nuevo repositorio de Git. Al ejecutar git init, se crea un subdirectorio de .git en el directorio de trabajo actual, que contiene todos los metadatos de Git necesarios para el nuevo repositorio.</h4>
+      </div>
+
+      <div>
+        <div class="apartado" id="texto2"><strong>git status</strong><br></div>
+        <h4>Enumera los archivos que se han preparado, los que están sin preparar y los archivos sin seguimiento. Los mensajes de estado también incluyen información importante para preparar archivos o deshacer su preparación.</h4>
+      </div>
+
+      <div>
+        <div class="apartado" id="texto3"><strong>git add</strong><br></div>
+        <h4>Su uso principal es recibir tanto una ruta de archivo como de un directorio; si es de un directorio, el comando añade recursivamente los archivos que están dentro de él.</h4>
+      </div>
+
+      <div>
+        <div class="apartado" id="texto4"><strong>git config</strong><br></div>
+        <h4>Al ejecutar git config, se modificará un archivo de texto de configuración. El caso práctico más básico de este comando es invocarlo con un nombre de configuración.</h4>
+      </div> 
+
+      <div>
+        <div class="apartado" id="texto5"><strong>git commit</strong><br></div>
+        <h4>Su funcion es guardar todos los cambios hechos en la área de preparación, junto con una breve descripción del usuario</h4>
+      </div>
+
+      <div>
+        <div class="apartado" id="texto6"><strong>git log</strong><br></div>
+          <h4>Se usa para ver las versiones creadas, se mostrara informacion como:<h4>
+          <h4>Identificador del commit</h4> 
+          <h4>Autor</h4>
+          <h4>Fecha de realización</h4>
+          <h4>Mensaje enviado</h4>
+      </div> 
+      
+      <div>
+        <div class="apartado" id="texto7"><strong>git clone</strong><br></div>
+         <h4>Se utiliza principalmente para apuntar a un repositorio existente y clonar o copiar dicho repositorio en un nuevo directorio, en otra ubicación. La clonación crea automáticamente una conexión remota llamada "origin" que apunta al repositorio original.</h4>
+      </div> 
+
+      <div>
+        <div class="apartado" id="texto8"><strong>git diff</strong><br></div>
+        <h4>Sirve para ver las diferencias con los archivos anteriores de los archivos que no se han añadido al área de ensayo. Esto código muestra exactamente los cambios que se han realizado dentro de los archivos. Se suele utilizar después de ver los cambios que ha habido en los archivos. </h4>      
+      </div>  
+
+      <div>
+        <div class="apartado" id="texto9"><strong>git checkout</strong><br></div>
+        <h4> Usaremos el comando git checkout principalmente para cambiarte de una rama a otra. También lo podemos usar para chequear archivos y commits.</h4>      
+      </div> 
+
+      <div>
+        <div class="apartado" id="texto10"><strong>git restore</strong><br></div>
+        <h4>Es una herramienta para revertir cambios no comprometidos. Se puede usar en tres modos diferentes, dependiendo de si desea revertir el trabajo en la copia de trabajo, en el índice o en ambos.</h4>      
+      </div>           
+
+      <div>
+        <div class="apartado" id="texto11"><strong>git branch</strong><br></div>
+        <h4>Para saber qué ramas están disponibles y cuál es el nombre de la rama actual, ejecuta git branch. hay otras </h4>  
+        <h4>Nuevas ramas</h4>
+        <h4><strong>git checkout -b ＜new-branch＞:</strong> se crea y se extrae la rama  simultáneamente.</h4>    
+      </div>
+
+      <div>
+        <div class="apartado" id="texto12"><strong>git fetch</strong><br></div>
+        <h4>Puedes usar git fetch para saber los cambios hechos en el repo/rama remoto desde el último pull. Esto es útil para permitir la comprobación antes de hacer un pull real.</h4>      
+      </div>  
+
+      <div>
+        <div class="apartado" id="texto13"><strong>git merge</strong><br></div>
+        <h4>La herramienta git merge se utiliza para fusionar uno o más ramas dentro de la rama que tienes activa.</h4>      
+      </div>   
+
+      <div>
+        <div class="apartado" id="texto14"><strong>git push</strong><br></div>
+        <h4>Se suele usar para publicar y cargar cambios locales a un repositorio central. Después de modificar el repositorio local, se ejecuta un comando push para compartir las modificaciones con miembros remotos del equipo.</h4>            
+      </div> 
+
+      <div>
+        <div class="apartado" id="texto15"><strong>git pull</strong><br></div>
+          <h4>El comando  git pull descargará todos los cambios desde el punto de separación de la rama local y la rama maestra. </h4>
+          <h4>Ejemplo</h4>
+          <h4><strong>git pull remote:</strong> Recupera la copia del origen remoto especificado de la rama actual y fusiónala de inmediato en la copia local.  </h4>            
+          <h4><strong>git pull --no-commit  remote:</strong> extrae el contenido remoto, pero no crea una nueva confirmación de fusión.</h4>
+      </div>  
+
+      <div>
+        <div class="apartado" id="texto16"><strong >git rm</strong><br></div>
+        <h4>Su uso es eliminar los archivos del area de ensayo, no solo los archivos que son rastreados por git, sino que también los elimina del área de trabajo.</h4>            
+      </div> 
+
+      <div>
+        <div class="apartado" id="texto17"><strong>git switch</strong><br></div>
+        <h4>Este comando su funcion es Cambiar a una rama específica. El árbol de trabajo y el índice se actualizan para que coincidan con la rama.</h4>            
+      </div>  
+      <div>
+        <div class="apartado" id="texto18"><strong>git remote</strong><br></div>
+        <h4>Para ver los remotos que se tienen configurados, se debe ejecutar el comando <strong> git remote</strong> mostrando los nombres de cada uno de los remotos que tienen especificados. </h4>            
+      </div>                           
+   <br><br>
+  </body>
+</html>

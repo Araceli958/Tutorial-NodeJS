@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" /> 
+    <link rel="stylesheet" type="text/css" href="/estilo">
+    <link rel="stylesheet" type="text/css" href="/vertical">
+    <title>Tutorial con git</title>
+
+    <header class="container">       
+        <nav>
+          <br>
+            <a href="/index" class="lista">GIT</a>
+            <a href="/utilizacion" class="lista">UTILIZACI&Oacute;N</a>
+            <a href="/demostracion" class="lista">DEMOSTRACI&Oacute;N</a>
+
+        </nav>
+    </header>
+
+    <body>  
+    <div><h2>"DEMOSTRACI&Oacute;N DE LOS COMANDOS"</h2></div><BR>
+
+    <div>
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Como primer paso se crea una nueva carpeta que es donde se guardara el archivo que se utilizara y se manda a traer en el editor que se quiera utilizar en este caso es Sublime text.</h3><br>
+        <img src="/img1" class="imag">
+      </div>
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>En sublime text se crea el archivo index.html y se guarda en la carpeta</h3>
+        <img src="/img2" class="imag" width="55%">
+      </div>
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Ingresamos a la consola  y nos redirigimos a la ruta donde esta  la carpeta o tambi&eacute;n colocando el cursor en la ruta donde esta guardada y colocar  <strong>cmd</strong>. Despu&eacute;s utilizamos el comando <strong>git init</strong> el cual se utiliza una sola vez durante la configuraci&oacute;n inicial de un proyecto nuevo.</h3>
+        <img src="/img3" class="imag">
+      </div>
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Ingresamos el comando <strong>git status</strong> para que  nos muestre el estado del directorio de trabajo (proyecto), tambi&eacute;n nos permite ver los cambios que se han realizado, los que no y los archivos que se tienen en la carpeta. El archivo de index.html esta en color rojo por que a&uacute;n no se a agregado.</h3>
+        <img src="/img4" class="imag" width="55%" height="280px">
+      </div>
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3> Se inserta el comando <strong>git add </strong>con el nombre del archivo, para agregar y indicar a Git que se quiere incluir actualizaciones en el archivo o tambien se puede utilizar el comando <strong>git add .</strong>. Para ver el cambio se inserta de nuevo el comando git status.</h3>
+        <img src="/img5" class="imag" width="55%" height="190px">
+      </div> 
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Al ejecutar comando <strong>git commit</strong> se guardaran los cambios de la nueva version la cual se almacenara en el directorio git. con <strong>git log </strong>se pueden ver las versiones guardadas</h3>
+        <img src="/img6" class="imag" width="55%">
+      </div>
+
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Se configura el  nombre de usuario y direcci&oacute;n de correo electr&oacute;nico, con el comando <strong>git config --global user.name  y  git config --global user.email. </h3>      
+        <img src="/img7" class="imag" width="55%">
+      </div> 
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3><strong>El comando git diff</strong> nos indicara los cambios que has hecho pero que aun no has preparado o las líneas exactas que fueron añadidas y eliminadas.</h3>
+        <img src="/img8" class="imag" width="55%">      
+      </div>  
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Insertamo <strong> git checkout</strong> para cambiarnos de una rama a otra. Lo utilizaremos de la siguiente manera: git checkout --nombre-de-la-rama.</h3>      
+        <img src="/img9" class="imag" width="55%"> 
+      </div> 
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>El comando <strong>git restore</strong> lo utilizaremos para restaurar archivos en el índice desde otro commit.</h3>    
+        <img src="/img10" class="imag" width="55%">  
+      </div>           
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3> Con el comando <strong>git branch</strong> crearemos una rama nueva</h3> 
+        <img src="/img11" class="imag" width="55%">     
+      </div>
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>El comando <strong>git fetch</strong> se ejecutara para recuperar la última información de los metadatos del original</h3> 
+        <img src="/img12" class="imag" width="55%" height="200px">       
+      </div>  
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>El comando <strong>git merge</strong> fusionará cualquier cambio que se haya hecho en la base de código en una rama separada de   tu rama actual como un nuevo commit.</h3> 
+        <img src="/img13" class="imag" width="55%">      
+      </div>   
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Después de haber confirmado los cambios, debemos enviar los commits al repositorio remoto para eso utilizamos el comando <strong>git push.</strong></h3>    
+        <img src="/img14" class="imag" width="55%">         
+      </div> 
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Ejecutamos el comando <strong> git pull</strong>  para recibir las actualizaciones del repositorio remoto.</h3>      
+        <img src="/img15" class="imag" width="55%">       
+      </div>  
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3> El comando <strong>git rm</strong> se utiliza  para eliminar archivos del index y del directorio de trabajo.</h3>   
+        <img src="/img16" class="imag"width="55%">          
+      </div> 
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3> Al ejecutar el comando <strong>git Switch</strong> nos permitirá cambiar a otra rama.</h3>    
+        <img src="/img17" class="imag" width="55%">         
+      </div>  
+
+      <div>
+        <div class="apartado"><br></div>
+        <h3>Ponemos <strong>git clone</strong> para realizar una copia idéntica de la última versión del proyecto y la guarda en el ordenador.</h3>        
+        <img src="/img18" class="imag" width="55%"> 
+      </div><br><br>                           
+    </div>
+  </body>
+</html>

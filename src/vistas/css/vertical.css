@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#comandos {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+  background:  #2d2e2f;
+  transition: all 500ms linear;
+    overflow: auto;
+
+}
+
+
+#comandos ul li {
+  color: rgba(230, 230, 230, .9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(76 75 75 / 30%);
+  text-align: center;
+  color: white;
+  max-height: 10px;
+
+}
+
+.uno{
+  background: #5a5656;
+}
+
+h3 {
+  color: black;
+}
+
+a{
+  color: white;
+  text-align: justify;
+  text-decoration: none;
+ 
+
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: 17px;
+
+}
+
+
